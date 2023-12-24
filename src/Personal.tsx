@@ -256,19 +256,19 @@ const PersonalBucket = () => {
           <Title>OUR BUCKET LIST</Title>
         </TitleContainer>
         <IconContainer>
-          <Link to="/">
+          <Link to={`${process.env.PUBLIC_URL}/`}>
             <Icon
               src="home-icon.png"
               whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}
             />
           </Link>
-          <Link to="/shared">
+          <Link to={`${process.env.PUBLIC_URL}/shared`}>
             <Icon
               src="shared-icon.png"
               whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}
             />
           </Link>
-          <Link to="/personal">
+          <Link to={`${process.env.PUBLIC_URL}/personal`}>
             <Icon
               src="personal-icon.png"
               whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}
