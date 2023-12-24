@@ -7,7 +7,7 @@ import SharedBucket from "./Shared";
 import PersonalBucket from "./Personal";
 
 ReactDOM.render(
-  <HashRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/shared" element={<SharedBucket />} />
