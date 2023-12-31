@@ -186,20 +186,7 @@ const Ground = styled.div`
 `;
 
 const PersonalBucket = () => {
-  const bucketList1 = [
-    ["세계일주!!!", false],
-    ["무나물 밥...", false],
-    ["결혼", false],
-    ["세계일주!!!", true],
-    ["무나물 밥...", false],
-    ["결혼", true],
-    ["세계일주!!!", false],
-    ["무나물 밥...", true],
-    ["결혼", false],
-    ["세계일주!!!", false],
-    ["무나물 밥...", false],
-    ["결혼", false],
-  ];
+  const bucketList1 = [["2024♥", false]];
 
   const pushIsChecked = (bucketList: Array<Array<string | boolean>>) => {
     const newArray = [];
@@ -222,19 +209,14 @@ const PersonalBucket = () => {
   };
 
   const bucketList2 = [
-    ["잠", true],
-    ["세계일주!!!", false],
-    ["무나물 밥...", false],
-    ["결혼", false],
-    ["세계일주!!!", true],
-    ["무나물 밥...", false],
-    ["결혼", true],
-    ["세계일주!!!", false],
-    ["무나물 밥...", true],
-    ["결혼", false],
-    ["세계일주!!!", false],
-    ["무나물 밥...", false],
-    ["결혼", false],
+    ["2024♥", false],
+    ["공급자의 입장에서 돈 벌어보기", false],
+    ["투자자산운용사", false],
+    ["CFA Level1", false],
+    ["클라이밍 열심히 연습해서 멋진 오빠 되기", false],
+    ["지연이 무나물밥 해주기", false],
+    ["지연이에게 힘이 되어주기", false],
+    ["지연이 행복하게 해주기", false],
   ];
 
   const [isCheckedArray2, setCheckedArray2] = React.useState(

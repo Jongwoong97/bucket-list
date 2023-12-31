@@ -172,19 +172,34 @@ const Ground = styled.div`
 `;
 
 const SharedBucket = () => {
+  // const bucketList = [
+  //   ["세계일주!!!", false],
+  //   ["무나물 밥...", false],
+  //   ["결혼", false],
+  //   ["세계일주!!!", true],
+  //   ["무나물 밥...", false],
+  //   ["결혼", true],
+  //   ["세계일주!!!", false],
+  //   ["무나물 밥...", true],
+  //   ["결혼", false],
+  //   ["세계일주!!!", false],
+  //   ["무나물 밥...", false],
+  //   ["결혼", false],
+  // ];
   const bucketList = [
-    ["세계일주!!!", false],
-    ["무나물 밥...", false],
-    ["결혼", false],
-    ["세계일주!!!", true],
-    ["무나물 밥...", false],
-    ["결혼", true],
-    ["세계일주!!!", false],
-    ["무나물 밥...", true],
-    ["결혼", false],
-    ["세계일주!!!", false],
-    ["무나물 밥...", false],
-    ["결혼", false],
+    ["2024♥", false],
+    ["허브농장 가기", false],
+    ["바닷가 풍경 예쁜 곳 함께 놀러가기", false],
+    ["훠궈 먹기", false],
+    ["마라탕 먹기", false],
+    ["마라샹궈 먹기", false],
+
+    ["Logical Thinking 문제 같이 풀기", false],
+    ["서로 요리해주기", false],
+    ["같이 열심히 운동해서 멋진 남녀 되기 (지연: 난 멋진 누나가 될래)", false],
+    ["음식 세계일주 하기", false],
+    ["독일 음식 먹기 - 후보지: 악소", false],
+    ["중동 음식 먹기 - 후보지: 클레오", false],
   ];
 
   const pushIsChecked = () => {
