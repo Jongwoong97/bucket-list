@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/bucket-list/static/js/main.acb9df0c.js",
+    "main.js": "/bucket-list/static/js/main.29b293e4.js",
     "index.html": "/bucket-list/index.html",
-    "main.acb9df0c.js.map": "/bucket-list/static/js/main.acb9df0c.js.map"
+    "main.29b293e4.js.map": "/bucket-list/static/js/main.29b293e4.js.map"
   },
   "entrypoints": [
-    "static/js/main.acb9df0c.js"
+    "static/js/main.29b293e4.js"
   ]
 }
