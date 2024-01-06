@@ -191,7 +191,7 @@ const SharedBucket = () => {
     ["허브농장 가기", false],
     ["바닷가 풍경 예쁜 곳 함께 놀러가기", false],
     ["훠궈 먹기", false],
-    ["마라탕 먹기", false],
+    ["마라탕 먹기", true],
     ["마라샹궈 먹기", false],
 
     ["Logical Thinking 문제 같이 풀기", false],
@@ -200,6 +200,7 @@ const SharedBucket = () => {
     ["음식 세계일주 하기", false],
     ["독일 음식 먹기 - 후보지: 악소", false],
     ["중동 음식 먹기 - 후보지: 클레오", false],
+    ["일본에서 야끼소바 빵 먹기", false],
   ];
 
   const pushIsChecked = () => {
