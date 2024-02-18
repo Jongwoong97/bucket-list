@@ -186,7 +186,10 @@ const Ground = styled.div`
 `;
 
 const PersonalBucket = () => {
-  const bucketList1 = [["2024♥", false]];
+  const bucketList1 = [
+    ["신나게 살자! 건강하게 살자!!!!!!!", false],
+    ["2024♥", false],
+  ];
 
   const pushIsChecked = (bucketList: Array<Array<string | boolean>>) => {
     const newArray = [];

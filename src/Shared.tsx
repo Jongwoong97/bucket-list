@@ -187,15 +187,17 @@ const SharedBucket = () => {
   //   ["결혼", false],
   // ];
   const bucketList = [
+    ["잉꼬부부 되기", false],
     ["2024♥", false],
     ["허브농장 가기", false],
     ["바닷가 풍경 예쁜 곳 함께 놀러가기", false],
-    ["훠궈 먹기", false],
+    ["훠궈 먹기", true],
     ["마라탕 먹기", true],
     ["마라샹궈 먹기", false],
+    ["배쓰밤 목욕 ☞☜", false],
 
     ["Logical Thinking 문제 같이 풀기", false],
-    ["서로 요리해주기", false],
+    ["서로 요리해주기", true],
     ["같이 열심히 운동해서 멋진 남녀 되기 (지연: 난 멋진 누나가 될래)", false],
     ["음식 세계일주 하기", false],
     ["독일 음식 먹기 - 후보지: 악소", false],
